@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+	</head>
+	<body>
+		<header >
+			HEADER
+		</header>
+		<nav>
+			<img class="menu" src="images/menu.png" alt="menu">
+			<ul>
+				<li>Inicio</li>
+				<li>Reuniones</li>
+				<li>Profesores</li>
+				<li>Presidente</li>
+			</ul>
+		</nav>
+		<aside class="redondo">
+			ASIDE
+		</aside><section>
+			SECTION
+			<article id="peligro" class="redondo">
+				ARTICLE
+			</article>
+		</section>
+
+		<footer>
+			<input type="text" class="input" placeholder="buscar">
+			<img id="buscar" class="menu" src="images/menu.png" alt="menu">
+		</footer>
+	</body>
+	<script>
+		$("#buscar").click(function(){
+			$(".input").show();
+			$(this).hide();
+		});
+	</script>
+</html>
